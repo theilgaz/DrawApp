@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.226,D:\MyDoc\_working\DrawDemoTestV1\Unit2.pas=D:\MyDoc\_working\DrawDemoTestV1\frmdrawmaindemo1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.868,D:\MyDoc\_working\DrawDemoTestV1\Unit2.pas=D:\MyDoc\_working\DrawDemoTestV1\frmfilebrowseopen.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.429,D:\MyDoc\RAD Studio\Projects\TestV1\TestV1.dproj=D:\MyDoc\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.019,D:\MyDoc\_working\DrawDemoTestV1\Unit2.pas=D:\MyDoc\_working\DrawDemoTestV1\frmSelectBmp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.351,=D:\MyDoc\_working\DrawDemoTestV1\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.921,D:\MyDoc\_working\DrawDemoTestV1\Unit1.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.590,=D:\MyDoc\_working\DrawDemoTestV1\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.589,=D:\MyDoc\_working\DrawDemoTestV1\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.226,D:\MyDoc\_working\DrawDemoTestV1\Unit2.fmx=D:\MyDoc\_working\DrawDemoTestV1\frmdrawmaindemo1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.533,=D:\MyDoc\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.591,D:\MyDoc\RAD Studio\Projects\TestV1\Unit1.fmx=D:\MyDoc\RAD Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.147,D:\MyDoc\RAD Studio\Projects\TestV1\DrawDemoTestV1.dproj=D:\MyDoc\RAD Studio\Projects\TestV1\TestV1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.597,=D:\MyDoc\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.868,D:\MyDoc\_working\DrawDemoTestV1\Unit2.fmx=D:\MyDoc\_working\DrawDemoTestV1\frmfilebrowseopen.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.020,D:\MyDoc\_working\DrawDemoTestV1\Unit2.fmx=D:\MyDoc\_working\DrawDemoTestV1\frmSelectBmp.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.533,=D:\MyDoc\_working\DrawDemoTestV1\MyPaintBox.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.590,D:\MyDoc\RAD Studio\Projects\TestV1\Unit1.pas=D:\MyDoc\RAD Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<BT_BuildType>Debug</BT_BuildType>
+	<MobileDevice>4df1ff8315347f63</MobileDevice>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

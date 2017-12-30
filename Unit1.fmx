@@ -1,0 +1,74 @@
+object mainfrm: Tmainfrm
+  Left = 0
+  Top = 0
+  Caption = 'Demo Drawing sample'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 3
+  object recBoard: TPaintBox
+    OnGesture = recBoardGesture
+    Align = Client
+    Size.Width = 384.000000000000000000
+    Size.Height = 519.000000000000000000
+    Size.PlatformDefault = False
+    OnMouseDown = recBoardMouseDown
+    OnMouseMove = recBoardMouseMove
+    OnMouseUp = recBoardMouseUp
+    OnPaint = recBoardPaint
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 384.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object pbdraw: TPopupBox
+      Align = Left
+      Items.Strings = (
+        'Select draw'
+        'Line'
+        'Rectangle'
+        'Ellipse'
+        'Fill Color')
+      ItemIndex = 0
+      Position.Y = 8.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnChange = pbdrawChange
+    end
+    object cbfg: TComboColorBox
+      Align = Right
+      Color = claBlack
+      Position.X = 264.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object cbbg: TComboColorBox
+      Align = Right
+      Color = claWhite
+      Position.X = 324.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Client
+      Size.Width = 151.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Kaydet'
+      OnClick = SpeedButton1Click
+    end
+  end
+end
